@@ -58,9 +58,3 @@ Los dos módulos comparten el mismo motor de consulta, las mismas reglas de prio
 - [ ] Semana 14: página web para registrar y consultar casos
 - [ ] Semana 15: resúmenes con `pandas`
 - [ ] Semana 16: integración y presentación final
-
-
-
-
-
-TU NOMBRE · Curso de Python · TU UNIVERSIDAD
