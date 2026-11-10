@@ -50,11 +50,11 @@ Los dos módulos comparten el mismo motor de consulta, las mismas reglas de prio
 
 ## Avance del proyecto
 
-- [X] Semana 9: consulta concurrente de fuentes simuladas con `asyncio`
-- [X] Semana 10: comparación entre hilos, procesos y `asyncio`
-- [X] Semana 11: funciones para clasificar y priorizar
-- [ ] Semana 12: pruebas con entradas inesperadas y fallos de red
-- [ ] Semana 13: base de datos con SQLite
-- [ ] Semana 14: página web para registrar y consultar casos
-- [ ] Semana 15: resúmenes con `pandas`
-- [ ] Semana 16: integración y presentación final
+- [X]  consulta concurrente de fuentes simuladas con `asyncio`
+- [X]  comparación entre hilos, procesos y `asyncio`
+- [X]  funciones para clasificar y priorizar
+- [ ]  pruebas con entradas inesperadas y fallos de red
+- [ ]  base de datos con SQLite
+- [ ]  página web para registrar y consultar casos
+- [ ]  resúmenes con `pandas`
+- [ ]  integración y presentación final
