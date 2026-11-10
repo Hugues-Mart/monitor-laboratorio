@@ -8,11 +8,7 @@
 - Usé tiempos fijos (en vez de aleatorios) para que la comparación sea justa.
 
 ## Resultados en mi computadora
-(ejecuta `python -m src.core.comparacion` y pega aquí lo que te salga)
 
-```
-(pega aquí la tabla)
-```
 
 ## Qué aprendí
 - **Hilos y asyncio** sirven cuando el programa pasa el tiempo esperando (red, discos, respuestas de dispositivos). Mientras uno espera, los demás avanzan.
@@ -26,9 +22,7 @@ Consultar dispositivos y pasarelas es una tarea de espera, así que me quedo con
 - Permite poner timeout a cada fuente fácilmente.
 - Escala bien si algún día son cientos de fuentes.
 
-Los hilos habrían funcionado casi igual. Los procesos no tienen sentido aquí.
 
-(escribe aquí con tus palabras en qué parte del proyecto sí usarías procesos, por ejemplo si en la semana 15 el análisis con pandas se volviera muy pesado)
 
 ## Qué problemas tuve
 - (escribe aquí algo real que te pasó)
