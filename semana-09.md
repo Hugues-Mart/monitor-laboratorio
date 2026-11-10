@@ -7,10 +7,10 @@
 - Comparé el tiempo concurrente contra el secuencial.
 
 ## Qué problemas tuve
-- (escribe aquí algo real que te pasó, por ejemplo un error con asyncio.run o una fuente que se quedaba colgada)
+
 
 ## Resultado
-- (pega aquí lo que imprimió al ejecutar, por ejemplo los tiempos)
+
 
 ## Qué sigue
 - Semana 10: comparar con hilos y procesos.
