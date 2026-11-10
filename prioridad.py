@@ -1,4 +1,4 @@
-"""Reglas de prioridad como funciones puras (semana 11)."""
+
 from datetime import date
 
 NIVELES = ["baja", "media", "alta"]
@@ -12,13 +12,13 @@ CRITICIDAD = {
 
 
 def subir_nivel(nivel):
-    """Sube un nivel de prioridad sin pasarse de alta."""
+ 
     i = NIVELES.index(nivel)
     return NIVELES[min(i + 1, len(NIVELES) - 1)]
 
 
 def prioridad_dispositivo(fuente, total_caidos):
-    """Prioridad según el equipo caído y cuántos fallan a la vez."""
+   
     if fuente not in CRITICIDAD:
         raise ValueError(f"Dispositivo desconocido: {fuente}")
     nivel = CRITICIDAD[fuente]
@@ -28,7 +28,7 @@ def prioridad_dispositivo(fuente, total_caidos):
 
 
 def prioridad_factura(vencimiento, monto, pagada, hoy=None, monto_alto=1000):
-    """Prioridad de una factura. Devuelve None si ya está pagada."""
+
     if monto < 0:
         raise ValueError("El monto no puede ser negativo")
     if pagada:
